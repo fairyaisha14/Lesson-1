@@ -19,7 +19,7 @@ def main():
     x, y = 30, 30
     sprite_width, sprite_height = 60, 60
 
-    clock = pygame.time.Clock
+    clock = pygame.time.Clock()
 
     done = False
     while not done:
