@@ -13,7 +13,8 @@ pygame.init()
 
 # Load and transform the background image
 background_image = pygame.transform.scale(pygame.image.load("bg.jpg"),
-                                          (SCREEN_WIDTH, SCREEN_HEIGHT))
+                                    (SCREEN_WIDTH,
+                                    SCREEN_HEIGHT))
 
 # Load font once at the beginning
 font = pygame.font.SysFont("Times New Roman", FONT_SIZE)
